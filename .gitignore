@@ -10,3 +10,14 @@ venv
 # OS generated files
 .DS_Store
 .DS_Store?
+
+# Ignore test artifacts
+src/.coverage
+src/*.xml
+
+# Ignore eggs
+src/*egg-info
+
+# Ignore build and test artifacts
+target 
+reports
